@@ -1,0 +1,283 @@
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+    border: none;
+    color: white;
+    /* outline: none; */
+}
+body{
+    background-color: black;
+   
+}
+#sec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url(./images/Wildanimals.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+  .title{
+    background-color: rgba(128, 128, 128,0.4);
+    height:85vh;
+    width: 85%;
+    backdrop-filter: blur(8px);
+    border-radius: 30px;
+    border: 2px solid rgba(255, 255, 255,0.2);
+    
+}
+/* /* #sec .title::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(transparent 50%, rgb(162, 162, 189) ); 
+
+} */
+.content{
+    padding: 20px 50px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-logo{
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    
+    
+}
+span{
+    color: red;
+}
+nav{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.a1{
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+a{
+    text-decoration: none;
+}
+.a1:hover{
+    /* background-color: black; */
+    text-decoration: underline;
+    box-shadow: 10px 5px 5px;
+}
+h3{
+    font-size: 32px;
+    font-weight: bold;
+    letter-spacing: 50px;
+    text-align: center;
+    padding-top: 50px;
+    
+}
+#g{
+    font-size: 6rem;
+    font-weight: bold;
+    letter-spacing: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+.b1{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#img1{
+    border-radius: 50%;
+    animation: back 10s linear infinite;
+}
+
+.c{
+    border: 2px solid;
+    color: black;
+    border-radius: 10px;
+   
+    margin-top: 20px;
+    width: 20%;
+    height: 45px;
+    z-index: 1;
+}
+.c:hover{
+    background-color: blue;
+}
+/* #img2{
+    float: right;
+    height: 80vh;
+}
+h2{
+    padding-top: 20px;
+
+}
+p{
+    padding-top: 20px;
+}
+#h{
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-size: 50px;
+}
+.d{
+    border: 2px solid;
+    border-radius: 3px;
+    width: 15%;
+    color: black;
+} */
+
+#about_sec
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url(./images/Wildanimals.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.content_1{
+    display: flex;
+}
+.left,.right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#img2
+{
+    width:500px;
+    border-radius: 30px;
+    margin-top: 60px;
+}
+.left p
+{
+    font-size: 1.3rem;
+    line-height: 1.4;
+}
+.about_btn
+{
+    width:35%;
+    height:25%;
+    color:black;
+    background-color: green;
+    border-radius: 30px;
+    font-size: 30px;
+}
+.about_btn:hover
+{
+    background-color: rgb(5, 53, 5);
+}
+h1{
+    font-size: 40px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    
+}
+#project_sec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url(./images/Wildanimals.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+#Zoo{
+    width: 400px;
+    float: left;
+  height: 85vh;
+}
+
+.top{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+#form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url(./images/Wildanimals.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    
+}
+#red{
+    color: red;
+    margin-top: 10px;
+    animation: forest 2s ease-in-out;
+    
+    
+}
+#Information{
+   
+    margin-left: 30%;
+    margin-top: 50px;
+    animation: forest 2s ease-in-out;
+      
+   
+}
+#student{
+    width: 500px;
+    padding:10px;
+    background-color: transparent;
+    border: 2px solid;
+    
+}
+.project_but{
+    margin-left: 150px;
+    color: black;
+    border: 1px solid;
+    border-radius: 10px;
+    width: 35%;
+    height: 25%;
+    font-size: 20px;
+
+}
+.project_but:hover{
+    background-color: grey;
+}
+#blue{
+    color: blue;
+    text-align: center;
+    animation: forest 2s ease-in-out;
+}
+#orange{
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: left;
+    animation: forest 2s ease-in-out;
+    
+}
+span{
+    color: green;
+    animation: forest 10s ease-in-out;
+}
+
+
